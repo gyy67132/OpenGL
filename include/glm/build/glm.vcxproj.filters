@@ -1,0 +1,693 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\2023\code\opengl\glm\glm\core\dummy.cpp">
+      <Filter>Core Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\ext.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\glm.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\func_common.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\func_exponential.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\func_geometric.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\func_integer.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\func_matrix.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\func_noise.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\func_packing.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\func_trigonometric.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\func_vector_relational.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\intrinsic_common.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\intrinsic_exponential.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\intrinsic_geometric.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\intrinsic_matrix.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\intrinsic_trigonometric.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\intrinsic_vector_relational.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_gentype.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_half.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_mat.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_mat2x2.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_mat2x3.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_mat2x4.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_mat3x2.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_mat3x3.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_mat3x4.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_mat4x2.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_mat4x3.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_mat4x4.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_vec.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_vec1.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_vec2.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_vec3.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_vec4.inl">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\_detail.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\_fixes.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\_swizzle.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\_swizzle_func.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\_vectorize.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\func_common.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\func_exponential.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\func_geometric.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\func_integer.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\func_matrix.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\func_noise.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\func_packing.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\func_trigonometric.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\func_vector_relational.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\hint.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\intrinsic_common.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\intrinsic_exponential.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\intrinsic_geometric.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\intrinsic_matrix.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\intrinsic_trigonometric.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\intrinsic_vector_relational.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\setup.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_float.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_gentype.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_half.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_int.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_mat.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_mat2x2.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_mat2x3.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_mat2x4.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_mat3x2.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_mat3x3.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_mat3x4.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_mat4x2.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_mat4x3.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_mat4x4.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_size.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_vec.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_vec1.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_vec2.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_vec3.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\core\type_vec4.hpp">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtc\half_float.inl">
+      <Filter>GTC Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtc\matrix_access.inl">
+      <Filter>GTC Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtc\matrix_inverse.inl">
+      <Filter>GTC Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtc\matrix_transform.inl">
+      <Filter>GTC Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtc\noise.inl">
+      <Filter>GTC Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtc\quaternion.inl">
+      <Filter>GTC Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtc\random.inl">
+      <Filter>GTC Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtc\swizzle.inl">
+      <Filter>GTC Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtc\type_precision.inl">
+      <Filter>GTC Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtc\type_ptr.inl">
+      <Filter>GTC Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtc\half_float.hpp">
+      <Filter>GTC Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtc\matrix_access.hpp">
+      <Filter>GTC Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtc\matrix_integer.hpp">
+      <Filter>GTC Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtc\matrix_inverse.hpp">
+      <Filter>GTC Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtc\matrix_transform.hpp">
+      <Filter>GTC Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtc\noise.hpp">
+      <Filter>GTC Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtc\quaternion.hpp">
+      <Filter>GTC Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtc\random.hpp">
+      <Filter>GTC Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtc\swizzle.hpp">
+      <Filter>GTC Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtc\type_precision.hpp">
+      <Filter>GTC Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtc\type_ptr.hpp">
+      <Filter>GTC Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\associated_min_max.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\bit.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\closest_point.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\color_cast.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\color_space.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\color_space_YCoCg.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\compatibility.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\component_wise.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\constants.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\epsilon.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\euler_angles.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\extend.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\extented_min_max.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\fast_exponential.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\fast_square_root.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\fast_trigonometry.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\gradient_paint.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\handed_coordinate_space.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\inertia.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\int_10_10_10_2.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\integer.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\intersect.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\log_base.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\matrix_cross_product.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\matrix_interpolation.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\matrix_major_storage.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\matrix_operation.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\matrix_query.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\mixed_product.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\multiple.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\noise.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\norm.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\normal.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\normalize_dot.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\number_precision.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\ocl_type.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\optimum_pow.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\orthonormalize.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\perpendicular.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\polar_coordinates.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\projection.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\quaternion.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\random.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\raw_data.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\reciprocal.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\rotate_vector.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\simd_mat4.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\simd_vec4.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\spline.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\std_based_type.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\string_cast.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\transform.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\transform2.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\ulp.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\unsigned_int.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\vec1.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\vector_access.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\vector_angle.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\vector_query.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\verbose_operator.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\wrap.inl">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\associated_min_max.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\bit.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\closest_point.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\color_cast.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\color_space.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\color_space_YCoCg.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\compatibility.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\component_wise.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\constants.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\epsilon.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\euler_angles.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\extend.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\extented_min_max.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\fast_exponential.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\fast_square_root.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\fast_trigonometry.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\gradient_paint.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\handed_coordinate_space.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\inertia.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\int_10_10_10_2.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\integer.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\intersect.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\log_base.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\matrix_cross_product.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\matrix_interpolation.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\matrix_major_storage.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\matrix_operation.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\matrix_query.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\mixed_product.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\multiple.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\noise.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\norm.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\normal.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\normalize_dot.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\number_precision.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\ocl_type.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\optimum_pow.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\orthonormalize.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\perpendicular.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\polar_coordinates.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\projection.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\quaternion.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\random.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\raw_data.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\reciprocal.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\rotate_vector.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\simd_mat4.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\simd_vec4.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\spline.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\std_based_type.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\string_cast.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\transform.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\transform2.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\ulp.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\unsigned_int.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\vec1.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\vector_access.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\vector_angle.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\vector_query.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\verbose_operator.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\gtx\wrap.hpp">
+      <Filter>GTX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2023\code\opengl\glm\glm\virtrev\xstream.hpp">
+      <Filter>VIRTREV Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\2023\code\opengl\glm\glm\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core Files">
+      <UniqueIdentifier>{F0E65EA7-516F-3A4B-A02A-4266CDBE7A2F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GTC Files">
+      <UniqueIdentifier>{3E0F74F2-696F-3320-98DE-2D5DC4299F2B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GTX Files">
+      <UniqueIdentifier>{C0CA132B-871A-34E9-8301-825D8D7E3578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BAC5C604-3E44-3946-A4D3-EF6267A884D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VIRTREV Files">
+      <UniqueIdentifier>{B231F5A4-82E7-3F97-BB45-6FFB496C3617}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

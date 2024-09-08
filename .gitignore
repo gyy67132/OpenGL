@@ -1,0 +1,12 @@
+OpenGL/.vs
+OpenGL/Debug
+OpenGL/x64/Debug/*.ilk
+OpenGL/x64/Debug/*.pdb
+OpenGL/x64/Debug/*.idb
+OpenGL/x64/Debug/OpenGL.tlog
+OpenGL/x64/Debug/OpenGL.Build.CppClean.log
+OpenGL/x64/Debug/OpenGL.exe.recipe
+OpenGL/x64/Debug/OpenGL.vcxproj.FileListAbsolute.txt
+OpenGL/x64/Debug/*.obj
+OpenGL/x64/Debug/OpenGL.log
+include/glm/build
