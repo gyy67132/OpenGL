@@ -8,11 +8,19 @@
 #pragma comment(lib, "opengl32.lib")
 
 
+
 #include <iostream>
+
+#define numVAOs 1
+GLuint vao[numVAOs];
+GLuint program;
 
 void init(GLFWwindow *window)
 {
-	GLuint program = Utils::createShaderProgram("vertShader.glsl", "fragShader.glsl");
+	program = Utils::createShaderProgram("vertShader.glsl", "fragShader.glsl");
+	
+	glGenVertexArrays(numVAOs, vao);
+	glBindVertexArray(vao[0]);
 }
 
 void display(GLFWwindow* window, double time)
@@ -20,7 +28,10 @@ void display(GLFWwindow* window, double time)
 	glClear(GL_COLOR_BUFFER_BIT);
 	glClear(GL_DEPTH_BUFFER_BIT);
 
-	glClearColor(1.0, 0.0, 0.0, 1.0);
+	glClearColor(0.0, 0.0, 0.0, 1.0);
+
+	glUseProgram(program);
+	glDrawArrays(GL_POINTS, 0, 1);
 }
 
 int main()
