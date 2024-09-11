@@ -10,8 +10,6 @@
 
 #include <iostream>
 
-
-
 #define numVAOs 1
 #define numVBOs 2
 GLuint vao[numVAOs];
@@ -62,16 +60,12 @@ void init(GLFWwindow *window)
 {
 	program = Utils::createShaderProgram("vertShader.glsl", "fragShader.glsl");
 	
-	cameraX = 0.0f; cameraY = 0.0f; cameraZ = 8.0f;
+	cameraX = 0.0f; cameraY = 0.0f; cameraZ = 32.0f;
 	cubeLocX = 0.0f; cubeLocY = -2.0; cubeLocZ = 0.0f;
 	setupVertices();
 
-
 	mvLoc = glGetUniformLocation(program, "mv_matrix");
-	projLoc = glGetUniformLocation(program, "proj_matrix");
-
-	
-	
+	projLoc = glGetUniformLocation(program, "proj_matrix");	
 
 	glfwGetFramebufferSize(window, &width, &height);
 	aspect = width / height;
@@ -86,19 +80,23 @@ void display(GLFWwindow* window, double time)
 
 	glUseProgram(program);
 
-	glUniformMatrix4fv(mvLoc, 1, GL_FALSE, glm::value_ptr(mv_matrix));
+	
 	glUniformMatrix4fv(projLoc, 1, GL_FALSE, glm::value_ptr(proj_matrix));
 
 	glEnableVertexAttribArray(0);
 
 	for (int i = 0; i < 24; i++) {
-		double t = i * time;
+		double t = i  + time;
 		glm::mat4 vMat = glm::translate(glm::mat4(1.0), glm::vec3(-cameraX, -cameraY, -cameraZ));
 		glm::mat4 mMat = glm::translate(glm::mat4(1.0), glm::vec3(cubeLocX, cubeLocY, cubeLocZ));
 
-		glm::mat4 tMat = glm::translate(glm::mat4(1.0), glm::vec3(sin(t) * 2.0f, cos(t) * 2.0f, sin(t) * 2.0f));
-		glm::mat4 rMat = glm::rotate(glm::mat4(1.0), (float)sin(t) * 30.0f, glm::vec3(1.0f, 0.0f, 0.0f));
+		glm::mat4 tMat = glm::translate(glm::mat4(1.0), glm::vec3(sin(0.35 * t) * 8.0f, cos(0.52*t) * 8.0f, sin(0.7*t) * 8.0f));
+		glm::mat4 rMat = glm::rotate(glm::mat4(1.0), (float)(1.75f*t), glm::vec3(0.0f, 1.0f, 0.0f));
+		rMat = glm::rotate(rMat, (float)(17.5f * t), glm::vec3(1.0f, 0.0f, 0.0f));
+		rMat = glm::rotate(rMat, (float)(17.5f * t), glm::vec3(0.0f, 0.0f, 1.0f));
 		mv_matrix = vMat * tMat * rMat;
+
+		glUniformMatrix4fv(mvLoc, 1, GL_FALSE, glm::value_ptr(mv_matrix));
 
 		glEnable(GL_DEPTH_TEST);
 		glDepthFunc(GL_LEQUAL);
