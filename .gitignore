@@ -12,3 +12,4 @@ OpenGL/x64/Debug/OpenGL.log
 include/glm/build
 
 MVP/x64
+ComputeShader/x64
