@@ -21,11 +21,11 @@ void init()
 
 	glGenBuffers(3, buffer);
 	glBindBuffer(GL_SHADER_STORAGE_BUFFER, buffer[0]);
-	glBufferData(GL_SHADER_STORAGE_BUFFER, 6, v1, GL_STATIC_DRAW);
+	glBufferData(GL_SHADER_STORAGE_BUFFER, sizeof(v1), v1, GL_STATIC_DRAW);
 	glBindBuffer(GL_SHADER_STORAGE_BUFFER, buffer[1]);
-	glBufferData(GL_SHADER_STORAGE_BUFFER, 6, v2, GL_STATIC_DRAW);
+	glBufferData(GL_SHADER_STORAGE_BUFFER, sizeof(v2), v2, GL_STATIC_DRAW);
 	glBindBuffer(GL_SHADER_STORAGE_BUFFER, buffer[2]);
-	glBufferData(GL_SHADER_STORAGE_BUFFER, 6, NULL, GL_STATIC_READ);
+	glBufferData(GL_SHADER_STORAGE_BUFFER, sizeof(res), NULL, GL_STATIC_READ);
 }
 
 void computeSum()
