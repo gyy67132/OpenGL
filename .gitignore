@@ -13,3 +13,6 @@ include/glm/build
 
 MVP/x64
 ComputeShader/x64
+Rotate/x64
+FrameBuffers/x64
+Camera/x64
