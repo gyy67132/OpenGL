@@ -18,7 +18,6 @@ GLuint loadTexture(const char* path);
 void processInput(GLFWwindow* window);
 void renderCube();
 void renderScene(Shader& shader);
-void showFramebufferError(GLenum status);
 
 Camera camera;
 bool blinnKeyPressed = false;
@@ -119,6 +118,7 @@ int main()
 	glm::mat4 lightProjection = glm::ortho(-10.0f, 10.0f, -10.0f, 10.0f, -1.0f, 7.5f);
 
 	glEnable(GL_DEPTH_TEST);
+	
 
 	while (!glfwWindowShouldClose(window))
 	{
@@ -133,7 +133,10 @@ int main()
 		glClear(GL_DEPTH_BUFFER_BIT);
 		glActiveTexture(GL_TEXTURE0);
 		glBindTexture(GL_TEXTURE_2D, textureID);
+		//glEnable(GL_CULL_FACE);
+		//glCullFace(GL_FRONT);
 		renderScene(depthShader);
+		//glCullFace(GL_BACK);
 		glBindFramebuffer(GL_FRAMEBUFFER, 0);
 
 		/*glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -141,11 +144,11 @@ int main()
 		glActiveTexture(GL_TEXTURE0);
 		glBindTexture(GL_TEXTURE_2D, depthMap);
 		glBindVertexArray(debugVAO);
-		glDrawBuffer(GL_FRONT);
 		glDrawArrays(GL_TRIANGLES, 0, 6);*/
 
+		//glDisable(GL_CULL_FACE);
 		glClearColor(0.1, 0.1, 0.1, 1.0);
-		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+		glClear(GL_COLOR_BUFFER_BIT);
 		shader.use();
 		shader.setMat4("projection", projection);
 		shader.setMat4("view", view);
@@ -157,7 +160,6 @@ int main()
 		glBindTexture(GL_TEXTURE_2D, textureID);
 		glActiveTexture(GL_TEXTURE1);
 		glBindTexture(GL_TEXTURE_2D, depthMap);
-
 		renderScene(shader);
 
 		//开启垂直同步
@@ -341,46 +343,4 @@ GLuint loadTexture(const char* path)
 	stbi_image_free(data);
 
 	return textureID;
-}
-
-void showFramebufferError(GLenum status)
-{
-	if (status != GL_FRAMEBUFFER_COMPLETE)
-	{
-		//error
-		std::string err;
-
-		switch (status)
-		{
-		case GL_FRAMEBUFFER_UNDEFINED:
-			err = "GL_FRAMEBUFFER_UNDEFINED";
-			break;
-		case GL_FRAMEBUFFER_INCOMPLETE_ATTACHMENT:
-			err = "GL_FRAMEBUFFER_INCOMPLETE_ATTACHMENT";
-			break;
-		case GL_FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT:
-			err = "GL_FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT ";
-			break;
-		case GL_FRAMEBUFFER_INCOMPLETE_DRAW_BUFFER:
-			err = "GL_FRAMEBUFFER_INCOMPLETE_DRAW_BUFFER ";
-			break;
-		case GL_FRAMEBUFFER_INCOMPLETE_READ_BUFFER:
-			err = "GL_FRAMEBUFFER_INCOMPLETE_READ_BUFFER ";
-			break;
-		case GL_FRAMEBUFFER_UNSUPPORTED:
-			err = "GL_FRAMEBUFFER_UNSUPPORTED ";
-			break;
-		case GL_FRAMEBUFFER_INCOMPLETE_MULTISAMPLE:
-			err = "GL_FRAMEBUFFER_INCOMPLETE_MULTISAMPLE ";
-			break;
-		case GL_FRAMEBUFFER_INCOMPLETE_LAYER_TARGETS:
-			err = "GL_FRAMEBUFFER_INCOMPLETE_LAYER_TARGETS  ";
-			break;
-		}
-
-
-
-		std::cout << "Error building frambuffer: " << err << std::endl;
-		return;
-	}
 }

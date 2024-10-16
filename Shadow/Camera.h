@@ -25,7 +25,7 @@ public:
 	float Zoom;
 
 
-	Camera(glm::vec3 position = glm::vec3(0,0,8), glm::vec3 up = glm::vec3(0,1,0), float yaw = YAW, float pitch = PITCH)
+	Camera(glm::vec3 position = glm::vec3(0,0,7), glm::vec3 up = glm::vec3(0,1,0), float yaw = YAW, float pitch = PITCH)
 		:Front(glm::vec3(0, 0, -1)),MovementSpeed(SPEED),MouseSensitivity(SENSITIVITY),Zoom(ZOOM)
 	{
 		Position = position;
