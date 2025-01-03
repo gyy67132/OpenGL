@@ -174,6 +174,8 @@ void display(GLFWwindow* window, double time)
 
 	glClear(GL_DEPTH_BUFFER_BIT);
 	glClear(GL_COLOR_BUFFER_BIT);
+	
+	glClearColor(0.0, 0.0, 0.0, 1.0);
 
 	glEnable(GL_DEPTH_TEST);
 	glDepthFunc(GL_LEQUAL);
@@ -195,11 +197,7 @@ void display(GLFWwindow* window, double time)
 	glDrawArrays(GL_TRIANGLES, 0, 36);	
 
 	glBindFramebuffer(GL_FRAMEBUFFER, 0);
-	glDisable(GL_DEPTH_TEST);
-
-
-	glClearColor(1.0, 1.0, 1.0, 1.0);
-	glClear(GL_COLOR_BUFFER_BIT);
+	glDisable(GL_DEPTH_TEST);	
 
 	shader2.use();
 	glBindVertexArray(vao[1]);
